@@ -100,3 +100,15 @@ mysql> DESCRIBE countries4;
 | region_id    | int         | YES  |     | NULL    |       |
 +--------------+-------------+------+-----+---------+-------+
 3 rows in set (0.01 sec)
+
+Question_10:
+mysql> DESCRIBE jobs1;
++------------+--------------+------+-----+---------+-------+
+| Field      | Type         | Null | Key | Default | Extra |
++------------+--------------+------+-----+---------+-------+
+| job_id     | int          | NO   | PRI | NULL    |       |
+| job_title  | varchar(35)  | NO   |     | NULL    |       |
+| min_salary | decimal(6,0) | YES  |     | 8000    |       |
+| max_salary | decimal(6,0) | YES  |     | NULL    |       |
++------------+--------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
