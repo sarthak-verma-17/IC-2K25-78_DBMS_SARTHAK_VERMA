@@ -21,3 +21,14 @@ mysql> DESCRIBE countries;
 | region_id    | int         | YES  |     | NULL    |       |
 +--------------+-------------+------+-----+---------+-------+
 3 rows in set (0.002 sec)
+
+Question_3:
+mysql> DESCRIBE dup_countries;
++--------------+-------------+------+-----+---------+-------+
+| Field        | Type        | Null | Key | Default | Extra |
++--------------+-------------+------+-----+---------+-------+
+| country_id   | int         | YES  |     | NULL    |       |
+| country_name | varchar(40) | YES  |     | NULL    |       |
+| region_id    | int         | YES  |     | NULL    |       |
++--------------+-------------+------+-----+---------+-------+
+3 rows in set (0.002 sec)
