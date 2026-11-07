@@ -123,3 +123,14 @@ mysql> DESCEIBE countries5;
 | region_id    | int         | YES  |     | NULL    |       |
 +--------------+-------------+------+-----+---------+-------+
 3 rows in set (0.00 sec)
+
+Question_12:
+mysql> DESC countries6;
++--------------+-------------+------+-----+---------+----------------+
+| Field        | Type        | Null | Key | Default | Extra          |
++--------------+-------------+------+-----+---------+----------------+
+| country_id   | int         | NO   | PRI | NULL    | auto_increment |
+| country_name | varchar(40) | YES  |     | NULL    |                |
+| region_id    | int         | YES  |     | NULL    |                |
++--------------+-------------+------+-----+---------+----------------+
+3 rows in set (0.00 sec)
