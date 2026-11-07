@@ -76,3 +76,16 @@ mysql> DESCRIBE countries2;
 | region_id    | int         | YES  |     | NULL    |       |
 +--------------+-------------+------+-----+---------+-------+
 3 rows in set (0.01 sec)
+
+Question_8:
+mysql> DESCRIBE job_history;
++---------------+-------------+------+-----+---------+-------+
+| Field         | Type        | Null | Key | Default | Extra |
++---------------+-------------+------+-----+---------+-------+
+| employee_id   | int         | YES  |     | NULL    |       |
+| start_date    | date        | YES  |     | NULL    |       |
+| end_date      | date        | YES  |     | NULL    |       |
+| job_id        | varchar(10) | YES  |     | NULL    |       |
+| department_id | int         | YES  |     | NULL    |       |
++---------------+-------------+------+-----+---------+-------+
+5 rows in set (0.00 sec)
