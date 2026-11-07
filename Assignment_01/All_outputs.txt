@@ -207,3 +207,15 @@ Question_17:
 | salary      | decimal(8,2) | YES  |     | NULL    |       |
 +-------------+--------------+------+-----+---------+-------+
 5 rows in set (0.00 sec)
+
+Question_18:
++-------------+--------------+------+-----+---------+-------+
+| Field       | Type         | Null | Key | Default | Extra |
++-------------+--------------+------+-----+---------+-------+
+| employee_id | int          | NO   | PRI | NULL    |       |
+| first_name  | varchar(20)  | YES  |     | NULL    |       |
+| last_name   | varchar(25)  | NO   |     | NULL    |       |
+| job_id      | int          | NO   | MUL | NULL    |       |
+| salary      | decimal(8,2) | YES  |     | NULL    |       |
++-------------+--------------+------+-----+---------+-------+
+5 rows in set (0.00 sec)
